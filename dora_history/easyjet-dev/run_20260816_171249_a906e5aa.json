@@ -1,0 +1,124 @@
+{
+  "organization": "easyjet-dev",
+  "generated_at": "2026-08-16T17:12:49.314460",
+  "repository_count": 3,
+  "repositories": [
+    {
+      "repository": "ds-crew-brief",
+      "metrics": {
+        "deployment_frequency": "MONTHLY",
+        "lead_time_hours": 11.30351388888889,
+        "change_failure_rate": 24.0,
+        "time_to_restore_hours": 1.8543287037037037,
+        "performance_level": "LOW"
+      },
+      "data_sources": {
+        "deployment_frequency": {
+          "method": "deployments",
+          "count": 0,
+          "valid": false
+        },
+        "lead_time": {
+          "method": "pull_requests",
+          "count": 20,
+          "valid": true
+        },
+        "change_failure_rate": {
+          "method": "workflow_runs",
+          "count": 100,
+          "valid": true
+        },
+        "time_to_restore": {
+          "method": "workflow_runs",
+          "count": 100,
+          "valid": true
+        }
+      },
+      "last_updated": "2026-08-16T17:12:43.105944",
+      "data_points": {
+        "deployments_analyzed": 0,
+        "workflow_runs_analyzed": 100,
+        "pull_requests_analyzed": 20,
+        "analysis_period_days": 30
+      }
+    },
+    {
+      "repository": "de_qa_automation",
+      "metrics": {
+        "deployment_frequency": "MONTHLY",
+        "lead_time_hours": 0.32472222222222225,
+        "change_failure_rate": 0.0,
+        "time_to_restore_hours": 12.0,
+        "performance_level": "LOW"
+      },
+      "data_sources": {
+        "deployment_frequency": {
+          "method": "deployments",
+          "count": 0,
+          "valid": false
+        },
+        "lead_time": {
+          "method": "pull_requests",
+          "count": 1,
+          "valid": true
+        },
+        "change_failure_rate": {
+          "method": "workflow_runs",
+          "count": 4,
+          "valid": true
+        },
+        "time_to_restore": {
+          "method": "workflow_runs",
+          "count": 4,
+          "valid": true
+        }
+      },
+      "last_updated": "2026-08-16T17:12:46.705752",
+      "data_points": {
+        "deployments_analyzed": 0,
+        "workflow_runs_analyzed": 4,
+        "pull_requests_analyzed": 1,
+        "analysis_period_days": 30
+      }
+    },
+    {
+      "repository": "ds_qa_automation",
+      "metrics": {
+        "deployment_frequency": "MONTHLY",
+        "lead_time_hours": 48.0,
+        "change_failure_rate": 20.0,
+        "time_to_restore_hours": 12.0,
+        "performance_level": "LOW"
+      },
+      "data_sources": {
+        "deployment_frequency": {
+          "method": "deployments",
+          "count": 0,
+          "valid": false
+        },
+        "lead_time": {
+          "method": "pull_requests",
+          "count": 0,
+          "valid": false
+        },
+        "change_failure_rate": {
+          "method": "workflow_runs",
+          "count": 0,
+          "valid": false
+        },
+        "time_to_restore": {
+          "method": "workflow_runs",
+          "count": 0,
+          "valid": false
+        }
+      },
+      "last_updated": "2026-08-16T17:12:49.314146",
+      "data_points": {
+        "deployments_analyzed": 0,
+        "workflow_runs_analyzed": 0,
+        "pull_requests_analyzed": 0,
+        "analysis_period_days": 30
+      }
+    }
+  ]
+}
